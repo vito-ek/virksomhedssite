@@ -1,0 +1,12 @@
+.forside-cta_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+}
+
+.forside-cta_grid a {
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
