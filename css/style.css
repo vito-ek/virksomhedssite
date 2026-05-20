@@ -4,6 +4,7 @@ header {
   align-items: center;
   padding: 20px;
   color: #0f3d6b;
+  border-bottom: 1px solid #0f3d6b;
 }
 
 .forside-header .logo_buzio {
