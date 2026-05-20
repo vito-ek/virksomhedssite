@@ -2,6 +2,10 @@ img {
   max-width: 100%;
 }
 
+main {
+  padding: 0 100px;
+}
+
 .poppins-light {
   font-family: "Poppins", sans-serif;
   font-weight: 300;
