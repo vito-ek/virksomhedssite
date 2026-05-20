@@ -1,0 +1,9 @@
+.overskrifter {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.googlemaps {
+  display: flex;
+  justify-content: center;
+}
