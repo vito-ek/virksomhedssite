@@ -1,0 +1,108 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  color: #0f3d6b;
+}
+
+.forside-header .logo_buzio {
+  display: none;
+}
+
+/* MENU */
+
+.burger {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+#menu {
+  position: absolute;
+  top: 80px;
+  right: 20px;
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  opacity: 0;
+  transform: translateY(-10px);
+  pointer-events: none;
+  transition:
+    opacity 0.3s ease,
+    transform 0.3s ease;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+#menu li {
+  margin-bottom: 40px;
+
+  border-bottom: 1px solid #0f3d6b;
+  padding-bottom: 10px;
+}
+#menu a {
+  color: #0f3d6b;
+  text-decoration: none;
+  padding: 10px 0;
+  display: block;
+}
+#menu a:last-child {
+  padding-bottom: 0 0;
+}
+/* Når menuen er åben */
+#menu.active {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* ---- footer ---- */
+
+.footer_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.footer_times_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+footer li {
+  padding-bottom: 10px;
+}
+
+footer p {
+  padding-bottom: 30px;
+}
+
+.footer_kontakt {
+  text-align: right;
+}
+
+.footer_kontakt p {
+  padding: 0;
+}
+
+.book-btn {
+  padding: 14px 28px;
+  background: #0f3d6b;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 20px 0;
+}
+
+/* ---- logo ---- */
+
+.logo_buzio {
+  width: 140px;
+  height: auto;
+}

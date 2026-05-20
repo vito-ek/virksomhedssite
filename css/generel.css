@@ -1,0 +1,35 @@
+img {
+  max-width: 100%;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+p {
+  font-family: "Poppins";
+  font-weight: 300;
+}
+
+li {
+  font-family: "Poppins";
+  font-weight: 300;
+}
+
+a {
+  font-family: "Poppins";
+  font-weight: 300;
+}
+
+h3 {
+  font-family: "Poppins";
+  font-weight: 300;
+}
