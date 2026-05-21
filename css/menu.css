@@ -162,3 +162,73 @@ body {
 img {
   display: block;
 }
+
+@media (max-width: 768px) {
+  .tilbyder {
+    width: 345px;
+    margin: 0 auto;
+    padding: 35px 0 90px;
+    overflow: hidden;
+  }
+
+  .tilbyder h1 {
+    font-size: 14px;
+    letter-spacing: 8px;
+    text-align: center;
+    margin-bottom: 55px;
+  }
+
+  .tilbyder_block {
+    margin-bottom: 90px;
+  }
+
+  .tilbyder_block h2 {
+    font-size: 30px;
+    letter-spacing: 6px;
+    margin: 0 0 -10px 0;
+    white-space: nowrap;
+  }
+
+  .snacks_grid,
+  .smaa_grid {
+    display: grid;
+    grid-template-columns: 130px 200px;
+    gap: 15px;
+  }
+
+  .left_content img {
+    width: 130px;
+    height: 165px;
+  }
+
+  .big_snack_image {
+    width: 200px;
+    height: 285px;
+  }
+
+  .left_content p,
+  .smaa_grid p {
+    font-size: 11px;
+    line-height: 1.45;
+    margin-top: 20px;
+  }
+
+  .drikke_grid img,
+  .big_image {
+    width: 345px;
+    height: 300px;
+  }
+
+  .center_text {
+    max-width: 280px;
+    margin: 25px auto 0;
+    text-align: center;
+    font-size: 11px;
+    line-height: 1.45;
+  }
+
+  .smaa_grid img {
+    width: 200px;
+    height: 270px;
+  }
+}
