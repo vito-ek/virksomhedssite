@@ -10,3 +10,11 @@
   font-weight: bold;
   font-size: 1.5rem;
 }
+
+.logo-forside {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+}
