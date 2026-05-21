@@ -34,7 +34,7 @@ header {
   height: 100vh; /* Hele højden */
 
   background: rgba(255, 255, 255, 0.9); /* Hvid med opacity */
-  backdrop-filter: blur(8px); /* Flot glass-effekt */
+  backdrop-filter: blur(8px); /* glass-effekt */
 
   padding: 120px 40px 40px;
 
