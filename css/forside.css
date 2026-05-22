@@ -1,5 +1,5 @@
 body {
-  background-color: #fffef6;
+  background-color: #fffdf3;
 }
 
 h1 {
@@ -28,6 +28,7 @@ h1 {
   font-weight: lighter;
   font-size: 2rem;
   transition: transform 0.3s ease;
+  letter-spacing: 10px;
 }
 
 .forside-cta_grid a img {
