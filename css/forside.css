@@ -153,7 +153,7 @@ html {
 }
 
 .intro p {
-  padding-top: 0.2rem;
+  padding-bottom: 1rem;
 }
 
 @media (max-width: 768px) {
