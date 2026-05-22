@@ -152,6 +152,10 @@ html {
   padding-top: 1.3rem;
 }
 
+.intro p {
+  padding-top: 0.2rem;
+}
+
 @media (max-width: 768px) {
   /* HERO + VIDEO */
   .hero {

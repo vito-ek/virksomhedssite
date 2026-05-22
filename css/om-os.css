@@ -1,0 +1,37 @@
+.grid_omos {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
+  border-bottom: 1px solid #0f3d6b;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+.omosimg {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: baseline;
+  gap: 2rem;
+}
+img {
+  display: block;
+  object-fit: cover;
+  object-position: center center;
+}
+.omosimg img {
+  height: 100%;
+  width: auto;
+  box-sizing: border-box;
+}
+.stortbilledeomos img {
+  height: 100%;
+  width: 100%;
+}
+.instagrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+.ojeblikke {
+  padding-top: 2rem;
+}

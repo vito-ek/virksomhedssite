@@ -1,0 +1,164 @@
+body {
+  background-color: #fffdf3;
+}
+
+/* MAIN SECTION */
+
+.tilbyder {
+  background-color: #fffdf3;
+  width: 1080px;
+  margin: 0 auto;
+  padding: 70px 0 160px;
+}
+
+/* TOP OVERSKRIFT */
+
+.tilbyder h1 {
+  font-size: 24px;
+
+  letter-spacing: 12px;
+
+  margin-bottom: 100px;
+}
+
+/* BLOK */
+
+.tilbyder_block {
+  margin-bottom: 180px;
+
+  position: relative;
+}
+
+/* STORE OVERSKRIFTER */
+
+.tilbyder_block h2 {
+  font-size: 72px;
+
+  letter-spacing: 16px;
+
+  color: #a9c1b1;
+
+  line-height: 1;
+
+  margin: 0 0 -26px 0;
+
+  position: relative;
+
+  z-index: 2;
+
+  white-space: nowrap;
+}
+
+/* SNACKS */
+
+.snacks_grid {
+  display: grid;
+
+  grid-template-columns: 400px 650px;
+
+  gap: 30px;
+}
+
+.left_content img {
+  width: 400px;
+
+  height: 330px;
+
+  object-fit: cover;
+
+  display: block;
+}
+
+.big_snack_image {
+  width: 650px;
+
+  height: 540px;
+
+  object-fit: cover;
+
+  display: block;
+}
+
+.left_content p {
+  max-width: 300px;
+
+  font-size: 16px;
+
+  line-height: 1.5;
+
+  margin-top: 35px;
+}
+
+/* DRIKKEVARER */
+
+.drikke_grid img {
+  width: 1050px;
+
+  height: 650px;
+
+  object-fit: cover;
+
+  display: block;
+}
+
+.center_text {
+  max-width: 650px;
+
+  margin: 40px auto 0;
+
+  text-align: center;
+
+  font-size: 16px;
+
+  line-height: 1.5;
+}
+
+/* SMÅRETTER */
+
+.smaa_grid {
+  display: grid;
+
+  grid-template-columns: 400px 650px;
+
+  gap: 30px;
+
+  align-items: center;
+}
+
+.smaa_grid p {
+  max-width: 300px;
+
+  font-size: 16px;
+
+  line-height: 1.5;
+}
+
+.smaa_grid img {
+  width: 650px;
+
+  height: 520px;
+
+  object-fit: cover;
+
+  display: block;
+}
+
+/* STORT BILLEDE */
+
+.big_image {
+  width: 1050px;
+
+  height: 650px;
+
+  object-fit: cover;
+
+  display: block;
+
+  margin-top: 40px;
+}
+
+/* BILLEDER */
+
+img {
+  display: block;
+}
