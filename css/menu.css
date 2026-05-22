@@ -168,7 +168,6 @@ img {
     width: 345px;
     margin: 0 auto;
     padding: 35px 0 90px;
-    overflow: hidden;
   }
 
   .tilbyder h1 {
@@ -179,7 +178,7 @@ img {
   }
 
   .tilbyder_block {
-    margin-bottom: 90px;
+    margin-bottom: 70px;
   }
 
   .tilbyder_block h2 {
@@ -189,46 +188,78 @@ img {
     white-space: nowrap;
   }
 
+  /* SNACKS + SMÅRETTER */
+
   .snacks_grid,
   .smaa_grid {
     display: grid;
     grid-template-columns: 130px 200px;
     gap: 15px;
+    align-items: start;
   }
 
   .left_content img {
     width: 130px;
     height: 165px;
+    object-fit: cover;
   }
 
   .big_snack_image {
     width: 200px;
     height: 285px;
+    object-fit: cover;
   }
 
   .left_content p,
   .smaa_grid p {
     font-size: 11px;
     line-height: 1.45;
-    margin-top: 20px;
+    margin-top: 18px;
   }
 
-  .drikke_grid img,
-  .big_image {
+  /* DRIKKEVARER */
+
+  .drikke_grid img {
     width: 345px;
     height: 300px;
+    object-fit: cover;
   }
 
   .center_text {
     max-width: 280px;
-    margin: 25px auto 0;
+    margin: 20px auto 0;
     text-align: center;
     font-size: 11px;
     line-height: 1.45;
   }
 
+  /* SMÅRETTER */
+
   .smaa_grid img {
     width: 200px;
     height: 270px;
+    object-fit: cover;
+  }
+
+  /* SIDSTE STORE BILLEDE */
+
+  .big_image {
+    width: 345px;
+    height: 300px;
+    object-fit: cover;
+    margin-top: 15px;
+    display: block;
+  }
+  .footer_grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding: 30px 20px;
+  }
+
+  .footer_kontakt {
+    text-align: center;
+  }
+  .footer_times_grid {
+    justify-content: center;
   }
 }
