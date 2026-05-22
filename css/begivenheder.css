@@ -23,10 +23,10 @@ body {
 }
 
 .overskrift {
-  text-align: center;
+  text-align: left;
   color: black;
   font-weight: 500;
-  font-size: 3.5rem;
+  font-size: 3rem;
   padding-bottom: 3rem;
   padding-top: 2rem;
 }
