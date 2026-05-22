@@ -19,8 +19,11 @@ h1 {
 
 .forside-cta_grid a {
   text-decoration: none;
+  /*   text-decoration: underline 3px #0f3d6b;
+ */
   color: inherit;
   color: #0f3d6b;
+
   text-align: center;
   font-weight: lighter;
   font-size: 2rem;
