@@ -60,10 +60,6 @@ body {
 }
 
 .left_content img {
-  width: 400px;
-
-  height: 330px;
-
   object-fit: cover;
 
   display: block;
@@ -72,8 +68,7 @@ body {
 .big_snack_image {
   width: 650px;
 
-  height: 540px;
-
+  height: 520px;
   object-fit: cover;
 
   display: block;
@@ -92,10 +87,6 @@ body {
 /* DRIKKEVARER */
 
 .drikke_grid img {
-  width: 1050px;
-
-  height: 650px;
-
   object-fit: cover;
 
   display: block;
@@ -146,10 +137,6 @@ body {
 /* STORT BILLEDE */
 
 .big_image {
-  width: 1050px;
-
-  height: 650px;
-
   object-fit: cover;
 
   display: block;
@@ -161,4 +148,112 @@ body {
 
 img {
   display: block;
+}
+@media (max-width: 768px) {
+  .tilbyder {
+    width: 345px;
+    margin: 0 auto;
+    padding: 35px 0 90px;
+  }
+
+  .tilbyder h1 {
+    font-size: 14px;
+    letter-spacing: 8px;
+    text-align: center;
+    margin-bottom: 55px;
+  }
+
+  .tilbyder_block {
+    margin-bottom: 70px;
+  }
+
+  .tilbyder_block h2 {
+    font-size: 30px;
+    letter-spacing: 6px;
+    margin: 0 0 -10px 0;
+    white-space: nowrap;
+  }
+
+  /* SNACKS + SMÅRETTER */
+
+  .snacks_grid,
+  .smaa_grid {
+    display: grid;
+    grid-template-columns: 130px 200px;
+    gap: 15px;
+    align-items: center;
+  }
+
+  .left_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .left_content img {
+    width: 130px;
+    height: 165px;
+    object-fit: cover;
+  }
+
+  .big_snack_image {
+    width: 200px;
+    height: 285px;
+    object-fit: cover;
+  }
+
+  .left_content p,
+  .smaa_grid p {
+    font-size: 11px;
+    line-height: 1.45;
+    margin-top: 18px;
+  }
+
+  /* DRIKKEVARER */
+
+  .drikke_grid img {
+    width: 345px;
+    height: 300px;
+    object-fit: cover;
+  }
+
+  .center_text {
+    max-width: 280px;
+    margin: 20px auto 0;
+    text-align: center;
+    font-size: 11px;
+    line-height: 1.45;
+  }
+
+  /* SMÅRETTER */
+
+  .smaa_grid img {
+    width: 200px;
+    height: 270px;
+    object-fit: cover;
+  }
+
+  /* SIDSTE STORE BILLEDE */
+
+  .big_image {
+    width: 345px;
+    height: 300px;
+    object-fit: cover;
+    margin-top: 15px;
+    display: block;
+  }
+
+  .footer_grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding: 30px 20px;
+  }
+
+  .footer_kontakt {
+    text-align: center;
+  }
+
+  .footer_times_grid {
+    justify-content: center;
+  }
 }

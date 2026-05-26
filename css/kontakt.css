@@ -1,0 +1,159 @@
+.overskrifter {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  margin-left: 250px;
+}
+
+.googlemaps {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+}
+
+/* Centrer bgcolor på siden */
+.form-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+.bgcolor {
+  display: grid;
+  background-color: #c5d9c8;
+  width: 45rem; /* bredere så det ligner billede 1 */
+  border-radius: 10px;
+  justify-items: center;
+  padding: 20px;
+  position: relative;
+  border: 1px solid #aaa;
+}
+
+.forms {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-top: 1rem;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  height: 120px;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+
+.input1 {
+  width: 100%;
+  padding: 8px;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+}
+
+.h1 {
+  background-color: #666b74;
+  border-radius: 10px;
+  color: white;
+  width: 90%;
+  padding: 14px 20px;
+  letter-spacing: 0.15em;
+  margin-bottom: 10px;
+}
+
+.bekraeftelse {
+  display: none;
+  position: absolute;
+  background: #f0f0f0;
+  padding: 40px 60px;
+  border-radius: 8px;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: inherit;
+  letter-spacing: 0.1em;
+  width: 50%;
+  height: 50%;
+  opacity: 70%;
+  align-content: center;
+}
+
+.bekraeftelse span {
+  display: block;
+  color: green;
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+.Indsend {
+  width: fit-content;
+  border-radius: 999px;
+  background-color: #666b74;
+  color: white;
+  padding: 14px 30px;
+  width: fit-content;
+  font-size: large;
+  border: 1px solid black;
+}
+.form-wrapper {
+  margin-bottom: 5rem;
+}
+
+body {
+  font-family: "Poppins";
+}
+
+@media (max-width: 768px) {
+  .overskrifter {
+    grid-template-columns: 1fr;
+    padding: 30px 20px;
+    gap: 30px;
+    text-align: center;
+    margin: auto;
+  }
+
+  .overskrifter h2 {
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+  }
+
+  .footer_times_grid {
+    justify-content: center;
+  }
+
+  .googlemaps iframe {
+    width: 100%;
+    height: 300px;
+  }
+
+  .form-wrapper {
+    padding: 20px;
+  }
+
+  .bgcolor {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .forms {
+    width: 90%;
+  }
+
+  .footer_grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding: 30px 20px;
+  }
+
+  .footer_kontakt {
+    text-align: center;
+  }
+  .Indsend {
+    width: 20%;
+  }
+}
