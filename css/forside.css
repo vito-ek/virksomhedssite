@@ -2,6 +2,10 @@ body {
   background-color: #fffdf3;
 }
 
+main {
+  padding: 0 100px;
+}
+
 h1 {
   font-family: "Poppins";
   font-weight: 200;

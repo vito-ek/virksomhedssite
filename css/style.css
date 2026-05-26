@@ -95,10 +95,12 @@ ul {
 
 footer li {
   padding-bottom: 10px;
+  font-size: 15px;
 }
 
 footer p {
   padding-bottom: 30px;
+  font-size: 15px;
 }
 
 .footer_kontakt {
@@ -107,6 +109,10 @@ footer p {
 
 .footer_kontakt p {
   padding: 0;
+}
+
+.footer_kontakt h3 {
+  font-size: 15px;
 }
 
 .book-btn {
@@ -128,7 +134,7 @@ footer p {
 
 @media (max-width: 768px) {
   #menu {
-    width: 100vw; /* Fylder hele skærmen */
+    width: 70vw; /* Fylder hele skærmen */
     height: 100vh;
 
     padding: 120px 30px 40px;

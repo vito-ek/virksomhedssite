@@ -5,6 +5,10 @@
   margin-left: 250px;
 }
 
+main {
+  padding: 0 100px;
+}
+
 .googlemaps {
   display: flex;
   justify-content: center;
@@ -105,6 +109,10 @@
 
 body {
   font-family: "Poppins";
+}
+
+footer {
+  padding-top: 10rem;
 }
 
 @media (max-width: 768px) {
