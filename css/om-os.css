@@ -28,10 +28,24 @@ img {
 }
 .instagrid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 2rem;
   align-items: start;
 }
 .ojeblikke {
   padding-top: 2rem;
+}
+@media (max-width: 799px) {
+  .grid_omos {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .stortbilledeomos img {
+    width: 100%;
+    height: auto;
+  }
+  .instagrid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
