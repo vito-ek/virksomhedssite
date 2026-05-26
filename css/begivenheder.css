@@ -39,3 +39,23 @@ body {
 footer {
   padding-top: 10rem;
 }
+
+@media (max-width: 768px) {
+  .begivenheder_grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .begivenheder_grid p {
+    grid-column: span 3;
+    padding-bottom: 2rem;
+  }
+
+  .book-btn {
+    width: 70%;
+    text-align: center;
+
+    padding: 1rem;
+    font-size: 1.1rem;
+
+    border-radius: 12px;
+  }
+}
