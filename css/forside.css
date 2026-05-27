@@ -18,7 +18,6 @@ h1 {
   gap: 50px;
   padding-bottom: 12rem;
   padding-top: 1rem;
-  border-bottom: 1px solid #0f3d6b;
 }
 
 .forside-cta_grid a {
@@ -72,6 +71,7 @@ h1 {
 
 .footer-forside {
   padding-top: 4rem;
+  border-top: 1px solid #0f3d6b;
 }
 
 .hero {
