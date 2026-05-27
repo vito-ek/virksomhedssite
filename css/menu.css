@@ -147,6 +147,12 @@ body {
 img {
   display: block;
 }
+
+footer {
+  padding-top: 5rem;
+  border-top: 1px solid #0f3d6b;
+}
+
 @media (max-width: 768px) {
   .tilbyder {
     width: 345px;
